@@ -27,7 +27,7 @@ public class CampaignDetails extends JFrame {
         setSize(400, 300);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         initComponents();
-        initializeDatabase(); // Initialize the database connection
+        initializeDatabase(); 
         setVisible(true);
     }
 
