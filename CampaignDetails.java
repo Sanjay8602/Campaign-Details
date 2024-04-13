@@ -14,7 +14,6 @@ public class CampaignDetails extends JFrame {
     private JTextField dateTextField;
     private JTextArea detailsTextArea;
     private JButton showDetailsButton;
-
     private Map<String, String> campaignDetails;
     private Connection connection;
     private PreparedStatement selectStatement;
